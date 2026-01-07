@@ -29,24 +29,21 @@ import {
 const cx = (...c) => c.filter(Boolean).join(" ");
 
 // Assets
-const LOGO_URL = "https://treentechco.wordpress.com/wp-content/uploads/2026/01/chatgpt-image-jan-5-2026-04_43_28-pm.png";
+const LOGO_URL = "/shamsi-saim-logo.png";
 
 // Replace these with your real wedding photos later (recommended: hosted on your own domain/CDN)
 // NOTE: We also use a SafeImage fallback so the UI never breaks if a remote image 404s.
 const HERO_IMAGES = [
-  // Desi/bridal style portrait (stable Unsplash IDs)
-  "https://images.unsplash.com/photo-1529634806980-85c3dd6d34ac?auto=format&fit=crop&w=1400&q=80",
-  // Mehndi / hands
-  "https://images.unsplash.com/photo-1523438097201-512ae7d59c6b?auto=format&fit=crop&w=1400&q=80",
-  // Ceremony / cinematic wide
-  "https://images.unsplash.com/photo-1523437237164-d442d57cc3c9?auto=format&fit=crop&w=1800&q=80",
+  "/wedding-photo.png",
+  "/wedding-photo.png",
+  "/wedding-photo.png",
 ];
 
 const HIGHLIGHT_IMAGES = [
-  "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1504151932400-72d4384f04b3?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1523438097201-512ae7d59c6b?auto=format&fit=crop&w=1200&q=80",
-  "https://images.unsplash.com/photo-1520854221256-17451cc331bf?auto=format&fit=crop&w=1200&q=80",
+  "/wedding-photo.png",
+  "/wedding-photo.png",
+  "/wedding-photo.png",
+  "/wedding-photo.png",
 ];
 
 const FALLBACK_IMG =
