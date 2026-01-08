@@ -35,7 +35,7 @@ const LOGO_URL = "/shamsi-saim-logo.png";
 // NOTE: We also use a SafeImage fallback so the UI never breaks if a remote image 404s.
 const HERO_IMAGES = [
   "/wedding-photo.png",
-  "/wedding-photo.png",
+  "/Mehndi.jpg",
   "/wedding-photo.png",
 ];
 
