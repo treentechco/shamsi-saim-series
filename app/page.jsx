@@ -963,21 +963,19 @@ export default function Page() {
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-zinc-900 pt-8 text-xs text-zinc-500 sm:flex-row">
           <div className="flex items-center gap-2">
             <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-4 w-4 rounded-sm object-cover" loading="lazy" />
-            <span>© {new Date().getFullYear()} Shamsi Saim Weddings</span>
-           
-          </div>
-          <div className="flex items-center gap-4">
-            <a className="hover:text-zinc-300" href="#about">About</a>
-            <a className="hover:text-zinc-300" href="#services">Services</a>
-            <a className="hover:text-zinc-300" href="#contact">Contact</a>
-             <span>© {new Date().getFullYear()} Made by</span>
+            <span>© {new Date().getFullYear()} Shamsi Saim Weddings   Made By</span>
             <a
                 href="https://www.treentech.co/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                TREENTECHCO
+               TREENTECHCO
               </a>
+          </div>
+          <div className="flex items-center gap-4">
+            <a className="hover:text-zinc-300" href="#about">About</a>
+            <a className="hover:text-zinc-300" href="#services">Services</a>
+            <a className="hover:text-zinc-300" href="#contact">Contact</a>
           </div>
         </div>
       </section>
