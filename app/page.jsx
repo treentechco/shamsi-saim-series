@@ -367,7 +367,7 @@ function FloatingButtons() {
   return (
     <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
       <a
-        href="https://instagram.com/"
+        href="https://www.instagram.com/shamsisaimweddings_/?hl=en"
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/60 px-3 py-2 text-xs text-zinc-200 shadow-lg backdrop-blur transition hover:border-amber-300/30 hover:bg-white/5"
@@ -841,7 +841,7 @@ export default function Page() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://www.instagram.com/shamsisaimweddings/"
+                  href="https://www.instagram.com/shamsisaimweddings_/?hl=en"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
