@@ -841,7 +841,7 @@ export default function Page() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://instagram.com/"
+                  href="https://www.instagram.com/shamsisaimweddings/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
