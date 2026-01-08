@@ -415,7 +415,7 @@ export default function Page() {
               <span className="tracking-wide">Sufi-Inspired Traditional Wedding Stories</span>
             </motion.div>
              <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-full w-full object-cover" loading="eager" />
-            <motion.h1 variants={fadeUp} className="mt-5 text-4xl font-semibold tracking-tight text-zinc-50 sm:text-5xl">
+            <motion.h1 variants={fadeUp} className="bold">
               Shamsi Saim Weddings
             </motion.h1>
 
