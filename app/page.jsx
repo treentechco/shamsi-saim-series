@@ -367,7 +367,7 @@ function FloatingButtons() {
   return (
     <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
       <a
-        href="https://instagram.com/"
+        href="https://www.instagram.com/shamsisaimweddings_/?hl=en"
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/60 px-3 py-2 text-xs text-zinc-200 shadow-lg backdrop-blur transition hover:border-amber-300/30 hover:bg-white/5"
@@ -379,7 +379,7 @@ function FloatingButtons() {
       </a>
 
       <a
-        href="https://wa.me/"
+        href="https://wa.me/923252172225"
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/60 px-3 py-2 text-xs text-zinc-200 shadow-lg backdrop-blur transition hover:border-amber-300/30 hover:bg-white/5"
@@ -841,7 +841,7 @@ export default function Page() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://instagram.com/"
+                  href="https://www.instagram.com/shamsisaimweddings_/?hl=en"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
@@ -850,7 +850,7 @@ export default function Page() {
                   Instagram
                 </a>
                 <a
-                  href="https://wa.me/"
+                  href="https://wa.me/923252172225"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
@@ -963,7 +963,14 @@ export default function Page() {
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-zinc-900 pt-8 text-xs text-zinc-500 sm:flex-row">
           <div className="flex items-center gap-2">
             <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-4 w-4 rounded-sm object-cover" loading="lazy" />
-            <span>© {new Date().getFullYear()} Shamsi Saim Weddings</span>
+            <span>© {new Date().getFullYear()} Made by</span>
+            <a
+                href="https://www.treentech.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TREENTECHCO
+              </a>
           </div>
           <div className="flex items-center gap-4">
             <a className="hover:text-zinc-300" href="#about">About</a>
