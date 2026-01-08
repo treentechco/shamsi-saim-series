@@ -964,6 +964,14 @@ export default function Page() {
           <div className="flex items-center gap-2">
             <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-4 w-4 rounded-sm object-cover" loading="lazy" />
             <span>© {new Date().getFullYear()} Shamsi Saim Weddings</span>
+            <a
+                href="https://www.treentech.co/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                TREENTECHCO
+              </a>
+
           </div>
           <div className="flex items-center gap-4">
             <a className="hover:text-zinc-300" href="#about">About</a>
