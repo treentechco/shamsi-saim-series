@@ -329,8 +329,7 @@ function Navbar() {
     <div className="sticky top-0 z-50 border-b border-zinc-900/70 bg-black/40 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <a href="#home" className="group inline-flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-2xl border border-amber-300/20 bg-amber-300/10">
-            <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-full w-full object-cover" loading="eager" />
+          
           </div>
           <div className="leading-tight">
             <div className="text-sm font-semibold text-zinc-50">Shamsi Saim</div>
@@ -415,7 +414,7 @@ export default function Page() {
               <Sparkles className="h-3.5 w-3.5" />
               <span className="tracking-wide">Sufi-Inspired Traditional Wedding Stories</span>
             </motion.div>
-            
+            <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-full w-full object-cover" loading="eager" />
             <motion.h1 variants={fadeUp} className="bold">
               Shamsi Saim Weddings
             </motion.h1>
