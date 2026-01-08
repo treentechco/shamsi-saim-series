@@ -329,6 +329,9 @@ function Navbar() {
     <div className="sticky top-0 z-50 border-b border-zinc-900/70 bg-black/40 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <a href="#home" className="group inline-flex items-center gap-2">
+          <div className="flex h-9 w-9 items-center justify-center overflow-hidden rounded-2xl border border-amber-300/20 bg-amber-300/10">
+            <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-full w-full object-cover" loading="eager" />
+          </div>
           <div className="leading-tight">
             <div className="text-sm font-semibold text-zinc-50">Shamsi Saim</div>
             <div className="text-[11px] text-zinc-400">Weddings • Vintage • Sufi Soul</div>
@@ -364,7 +367,7 @@ function FloatingButtons() {
   return (
     <div className="fixed bottom-4 right-4 z-50 flex flex-col gap-2">
       <a
-        href="https://www.instagram.com/shamsisaimweddings_/?hl=en"
+        href="https://instagram.com/"
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/60 px-3 py-2 text-xs text-zinc-200 shadow-lg backdrop-blur transition hover:border-amber-300/30 hover:bg-white/5"
@@ -376,7 +379,7 @@ function FloatingButtons() {
       </a>
 
       <a
-        href="https://wa.me/923252172225"
+        href="https://wa.me/"
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/60 px-3 py-2 text-xs text-zinc-200 shadow-lg backdrop-blur transition hover:border-amber-300/30 hover:bg-white/5"
@@ -838,7 +841,7 @@ export default function Page() {
                   <ArrowRight className="h-4 w-4" />
                 </a>
                 <a
-                  href="https://www.instagram.com/shamsisaimweddings_/?hl=en"
+                  href="https://instagram.com/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
@@ -847,7 +850,7 @@ export default function Page() {
                   Instagram
                 </a>
                 <a
-                  href="https://wa.me/923252172225"
+                  href="https://wa.me/"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
@@ -883,7 +886,7 @@ export default function Page() {
                   <div className="mt-1 text-xs text-zinc-400">(Demo UI — wire to email/CRM later)</div>
                 </div>
                 <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-amber-300/20 bg-amber-300/10">
-  
+                  <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-full w-full object-cover" loading="lazy" />
                 </div>
               </div>
 
@@ -958,14 +961,9 @@ export default function Page() {
 
         {/* Footer */}
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-zinc-900 pt-8 text-xs text-zinc-500 sm:flex-row">
-            <span>© {new Date().getFullYear()} Made By</span>
-            <a
-                href="https://www.treentech.co/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                TREENTECHCO
-              </a>
+          <div className="flex items-center gap-2">
+            <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-4 w-4 rounded-sm object-cover" loading="lazy" />
+            <span>© {new Date().getFullYear()} Shamsi Saim Weddings</span>
           </div>
           <div className="flex items-center gap-4">
             <a className="hover:text-zinc-300" href="#about">About</a>
