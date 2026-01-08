@@ -379,7 +379,7 @@ function FloatingButtons() {
       </a>
 
       <a
-        href="https://wa.me/"
+        href="https://wa.me/923252172225"
         target="_blank"
         rel="noreferrer"
         className="group inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/60 px-3 py-2 text-xs text-zinc-200 shadow-lg backdrop-blur transition hover:border-amber-300/30 hover:bg-white/5"
@@ -850,7 +850,7 @@ export default function Page() {
                   Instagram
                 </a>
                 <a
-                  href="https://wa.me/"
+                  href="https://wa.me/923252172225"
                   target="_blank"
                   rel="noreferrer"
                   className="inline-flex items-center gap-2 rounded-full border border-zinc-800 bg-black/40 px-5 py-3 text-xs font-semibold text-zinc-100 backdrop-blur transition hover:bg-white/5"
