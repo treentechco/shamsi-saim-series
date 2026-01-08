@@ -883,7 +883,6 @@ export default function Page() {
                   <div className="text-sm font-semibold text-zinc-50">Inquiry Form</div>
                   <div className="mt-1 text-xs text-zinc-400">(Demo UI — wire to email/CRM later)</div>
                 </div>
-              </div>
 
               <form
                 onSubmit={(e) => {
