@@ -471,7 +471,7 @@ export default function Page() {
                 </div>
               </div>
               <div className="relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/50">
-                <SafeImage src={HERO_IMAGES[1]} alt="Mehndi moment" className="aspect-[4/5] w-full object-cover" loading="lazy" />
+                <SafeImage src={Mehndi.jpg} alt="Mehndi moment" className="aspect-[4/5] w-full object-cover" loading="lazy" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(236,72,153,0.18),transparent_60%)]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-black/0" />
                 <div className="absolute bottom-3 left-3 rounded-full border border-amber-300/20 bg-black/50 px-3 py-1 text-[11px] text-zinc-200 backdrop-blur">
