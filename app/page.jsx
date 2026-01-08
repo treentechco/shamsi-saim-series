@@ -329,8 +329,6 @@ function Navbar() {
     <div className="sticky top-0 z-50 border-b border-zinc-900/70 bg-black/40 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <a href="#home" className="group inline-flex items-center gap-2">
-          
-          </div>
           <div className="leading-tight">
             <div className="text-sm font-semibold text-zinc-50">Shamsi Saim</div>
             <div className="text-[11px] text-zinc-400">Weddings • Vintage • Sufi Soul</div>
