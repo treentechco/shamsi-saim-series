@@ -34,16 +34,17 @@ const LOGO_URL = "/shamsi-saim-logo.png";
 // Replace these with your real wedding photos later (recommended: hosted on your own domain/CDN)
 // NOTE: We also use a SafeImage fallback so the UI never breaks if a remote image 404s.
 const HERO_IMAGES = [
-  "/wedding-photo.png",
-  "/Mehndi.jpg",
-  "/wedding-photo.png",
+  "/images/hero_groom.jpg",
+  "/images/hero_venue.jpg",
+  "/images/hero_couple.jpg",
 ];
 
 const HIGHLIGHT_IMAGES = [
-  "/wedding-photo.png",
-  "/wedding-photo.png",
-  "/wedding-photo.png",
-  "/wedding-photo.png",
+  "/images/highlight_bangles.jpg",
+  "/images/highlight_group.jpg",
+  "/images/hero_groom.jpg",
+  "/images/hero_venue.jpg",
+  "/images/hero_couple.jpg",
 ];
 
 const FALLBACK_IMG =
@@ -466,25 +467,16 @@ export default function Page() {
                 <SafeImage src={HERO_IMAGES[0]} alt="Wedding portrait" className="aspect-[4/5] w-full object-cover" loading="lazy" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_20%,rgba(245,158,11,0.22),transparent_60%)]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-black/0" />
-                <div className="absolute bottom-3 left-3 rounded-full border border-amber-300/20 bg-black/50 px-3 py-1 text-[11px] text-zinc-200 backdrop-blur">
-                  Replace with bridal portrait
-                </div>
               </div>
               <div className="relative overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/50">
                 <SafeImage src={HERO_IMAGES[1]} alt="Mehndi moment" className="aspect-[4/5] w-full object-cover" loading="lazy" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_30%,rgba(236,72,153,0.18),transparent_60%)]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/55 via-black/5 to-black/0" />
-                <div className="absolute bottom-3 left-3 rounded-full border border-amber-300/20 bg-black/50 px-3 py-1 text-[11px] text-zinc-200 backdrop-blur">
-                  Replace with mehndi moment
-                </div>
               </div>
               <div className="relative col-span-2 overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-950/50">
                 <SafeImage src={HERO_IMAGES[2]} alt="Cinematic wedding frame" className="aspect-[16/9] w-full object-cover" loading="lazy" />
                 <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_40%,rgba(99,102,241,0.14),transparent_60%)]" />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/10 to-black/0" />
-                <div className="absolute bottom-3 left-3 rounded-full border border-amber-300/20 bg-black/50 px-3 py-1 text-[11px] text-zinc-200 backdrop-blur">
-                  Replace with cinematic frame
-                </div>
               </div>
             </div>
 
@@ -727,9 +719,8 @@ export default function Page() {
         >
           <div className="flex items-center justify-between gap-3 border-b border-zinc-800 px-6 py-4">
             <div className="text-sm font-semibold text-zinc-50">Highlights</div>
-            <div className="text-[11px] text-zinc-400">Replace these blocks with real wedding photos / film stills</div>
           </div>
-          <div className="grid grid-cols-2 gap-3 p-6 md:grid-cols-4">
+          <div className="grid grid-cols-2 gap-3 p-6 md:grid-cols-5">
             {HIGHLIGHT_IMAGES.map((src, i) => (
               <div key={i} className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-black/40">
                 <SafeImage src={src} alt={`Highlight ${i + 1}`} className="aspect-[4/5] w-full object-cover" loading="lazy" />
