@@ -863,7 +863,7 @@ export default function Page() {
                     <MapPin className="h-4 w-4 text-amber-200" />
                     Location
                   </div>
-                  <div className="mt-1 text-zinc-300">Pakistan | Destination Weddings</div>
+                  <div className="mt-1 text-zinc-300">Pakistan | United Kingdom | Destination Weddings</div>
                 </div>
                 <div className="rounded-2xl border border-zinc-800 bg-black/40 p-4">
                   <div className="flex items-center gap-2 font-semibold text-zinc-50">
@@ -926,7 +926,7 @@ export default function Page() {
                     <span className="text-xs text-zinc-300">City / Venue</span>
                     <input
                       className="w-full rounded-2xl border border-zinc-800 bg-black/50 px-3 py-2 text-sm text-zinc-100 placeholder:text-zinc-600 outline-none transition focus:border-amber-300/30"
-                      placeholder="Lahore / Islamabad / Destination"
+                      placeholder="Pakistan / United Kingdom"
                     />
                   </label>
                 </div>
