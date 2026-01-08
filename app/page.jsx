@@ -329,7 +329,6 @@ function Navbar() {
     <div className="sticky top-0 z-50 border-b border-zinc-900/70 bg-black/40 backdrop-blur-xl">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <a href="#home" className="group inline-flex items-center gap-2">
-          </div>
           <div className="leading-tight">
             <div className="text-sm font-semibold text-zinc-50">Shamsi Saim</div>
             <div className="text-[11px] text-zinc-400">Weddings • Vintage • Sufi Soul</div>
@@ -884,10 +883,9 @@ export default function Page() {
                   <div className="mt-1 text-xs text-zinc-400">(Demo UI — wire to email/CRM later)</div>
                 </div>
                 <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-amber-300/20 bg-amber-300/10">
-                  <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-full w-full object-cover" loading="lazy" />
+  
                 </div>
               </div>
-
 
               <form
                 onSubmit={(e) => {
@@ -960,15 +958,13 @@ export default function Page() {
 
         {/* Footer */}
         <div className="mt-10 flex flex-col items-center justify-between gap-3 border-t border-zinc-900 pt-8 text-xs text-zinc-500 sm:flex-row">
-          <div className="flex items-center gap-2">
-            <SafeImage src={LOGO_URL} alt="Shamsi Saim Weddings" className="h-4 w-4 rounded-sm object-cover" loading="lazy" />
             <span>© {new Date().getFullYear()} Made By</span>
             <a
                 href="https://www.treentech.co/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-               TREENTECHCO
+                TREENTECHCO
               </a>
           </div>
           <div className="flex items-center gap-4">
