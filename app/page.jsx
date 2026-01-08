@@ -330,7 +330,7 @@ function Navbar() {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3 sm:px-6">
         <a href="#home" className="group inline-flex items-center gap-2">
           <div className="leading-tight">
-            <div className="text-sm font-semibold text-zinc-50">Shamsi Saim</div>
+            <div className="text-sm font-semibold text-zinc-50">Shamsi Saim Series</div>
             <div className="text-[11px] text-zinc-400">Weddings • Vintage • Sufi Soul</div>
           </div>
         </a>
