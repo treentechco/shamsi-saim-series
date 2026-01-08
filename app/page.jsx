@@ -882,6 +882,8 @@ export default function Page() {
                 <div>
                   <div className="text-sm font-semibold text-zinc-50">Inquiry Form</div>
                   <div className="mt-1 text-xs text-zinc-400">(Demo UI — wire to email/CRM later)</div>
+                  <div className="flex h-10 w-10 items-center justify-center overflow-hidden rounded-2xl border border-amber-300/20 bg-amber-300/10">
+                </div>
                 </div>
 
               <form
